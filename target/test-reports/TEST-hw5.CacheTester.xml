@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="DESKTOP-EJBFG7B" name="hw5.CacheTester" tests="6" errors="0" failures="1" skipped="0" time="11.829" timestamp="2024-02-19T20:05:29">
+          <properties>
+      <property name="java.specification.version" value="17"/><property name="sun.cpu.isalist" value="amd64"/><property name="sun.jnu.encoding" value="Cp1252"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="https://java.oracle.com/"/><property name="jline.terminal" value="unix"/><property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/><property name="sun.java.command" value="C:\Program Files (x86)\sbt\bin\sbt-launch.jar test"/><property name="jdk.debug" value="release"/><property name="sun.stderr.encoding" value="cp437"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2024-01-16"/><property name="java.home" value="C:\Program Files\Java\jdk-17"/><property name="file.separator" value="\"/><property name="java.vm.compressedOopsMode" value="32-bit"/><property name="line.separator" value="
+"/><property name="sun.stdout.encoding" value="cp437"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="user.script" value=""/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="17.0.10+11-LTS-240"/><property name="user.name" value="Dell"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="jnidispatch.path" value="C:\Users\Dell\AppData\Local\Temp\jna-2126305\jna5356948052720953658.dll"/><property name="jna.loaded" value="true"/><property name="java.io.tmpdir" value="C:\Users\Dell\AppData\Local\Temp\"/><property name="java.version" value="17.0.10"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="sun.os.patch.level" value=""/><property name="native.encoding" value="Cp1252"/><property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Dell\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Dell\bin;C:\Program Files\dotnet;C:\Program Files\CMake\bin;C:\Users\Dell\AppData\Local\Microsoft\WindowsApps;C:\Users\Dell\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Dell\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin;C:\Program Files\Java\jdk-17\bin;C:\Program Files (x86)\sbt\bin;C:\MinGW\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/><property name="java.vendor" value="Oracle Corporation"/><property name="scala.ext.dirs" value="C:\Users\Dell\.sbt\1.0\java9-rt-ext-oracle_corporation_17_0_10"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="java.class.path" value="C:\Program Files (x86)\sbt\bin\sbt-launch.jar"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="user.variant" value=""/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="America/Los_Angeles"/><property name="java.vm.specification.version" value="17"/><property name="os.name" value="Windows 11"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="US"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="C:\Users\Dell"/><property name="user.language" value="en"/><property name="sbt.script" value="C:/Program%20Files%20(x86)/sbt/bin/sbt"/><property name="sbt.ipcsocket.tmpdir" value="C:\Users\Dell\AppData\Local\Temp\.sbtd58471e1\ipcsocket"/><property name="swoval.tmpdir" value="C:\Users\Dell\AppData\Local\Temp\.sbtd58471e1\swoval"/><property name="jline.esc.timeout" value="0"/><property name="path.separator" value=";"/><property name="os.version" value="10.0"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/><property name="user.dir" value="C:\Users\Dell\OneDrive\Desktop\hw5-main"/><property name="os.arch" value="amd64"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="sbt.cygwin" value="true"/><property name="java.vm.version" value="17.0.10+11-LTS-240"/><property name="java.class.version" value="61.0"/>
+    </properties>
+          <testcase classname="hw5.CacheTester" name="MockDRAM should be able to a block &amp; read it back" time="6.02">
+                      
+                    </testcase><testcase classname="hw5.CacheTester" name="DMCache should be able to read (miss, then hit) a block" time="1.991">
+                      
+                    </testcase><testcase classname="hw5.CacheTester" name="DMCache should be able to write miss then read hit a block" time="0.722">
+                      
+                    </testcase><testcase classname="hw5.CacheTester" name="DMCache should load in a block" time="0.839">
+                      
+                    </testcase><testcase classname="hw5.CacheTester" name="DMCache should be able to write to all words and then read all in cache" time="1.523">
+                      <failure message="io_hit=true (1, 0x1) did not equal expected=false (0, 0x0) (lines in CacheTester.scala: 72, 124, 123, 122)" type="org.scalatest.exceptions.TestFailedException">org.scalatest.exceptions.TestFailedException: io_hit=true (1, 0x1) did not equal expected=false (0, 0x0) (lines in CacheTester.scala: 72, 124, 123, 122)
+	at chiseltest.internal.TestEnvInterface.signalExpectFailure(TestEnvInterface.scala:60)
+	at chiseltest.internal.TestEnvInterface.signalExpectFailure$(TestEnvInterface.scala:45)
+	at hw5.CacheTester.signalExpectFailure(CacheTester.scala:9)
+	at chiseltest.package$Utils$.expectFailed(package.scala:531)
+	at chiseltest.package$Utils$.expectBits(package.scala:522)
+	at chiseltest.package$testableBool.expectInternal(package.scala:28)
+	at chiseltest.package$testableBool.expect(package.scala:30)
+	at hw5.CacheTester.performWriteTest(CacheTester.scala:72)
+	at hw5.CacheTester.$anonfun$new$19(CacheTester.scala:124)
+	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:190)
+	at hw5.CacheTester.$anonfun$new$18(CacheTester.scala:123)
+	at hw5.CacheTester.$anonfun$new$18$adapted(CacheTester.scala:122)
+	at chiseltest.internal.GenericBackend.$anonfun$run$1(GenericBackend.scala:170)
+	at chiseltest.internal.ThreadedBackend$TesterThread$$anon$1.$anonfun$run$1(ThreadedBackend.scala:495)
+	at chiseltest.internal.GenericBackend.doTimescope(GenericBackend.scala:104)
+	at chiseltest.internal.ThreadedBackend$TesterThread$$anon$1.run(ThreadedBackend.scala:495)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: chiseltest.internal.FailedExpectException: io_hit=true (1, 0x1) did not equal expected=false (0, 0x0) (lines in CacheTester.scala: 72, 124, 123, 122)
+	... 17 more
+</failure>
+                    </testcase><testcase classname="hw5.CacheTester" name="DMCache should handle thrashing 0 -&gt; 32 -&gt; 0" time="0.734">
+                      
+                    </testcase>
+          <system-out><![CDATA[]]></system-out>
+          <system-err><![CDATA[]]></system-err>
+        </testsuite>

@@ -1,0 +1,340 @@
+$date
+2024-02-20T04:05+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module MockDRAM $end
+ $var wire 6 ' dram_2_MPORT_addr_pipe_0 $end
+ $var wire 1 ) dram_0_MPORT_en_pipe_0 $end
+ $var wire 6 - dram_3_MPORT_addr_pipe_0 $end
+ $var wire 1 / reset $end
+ $var wire 1 0 dram_3_MPORT_en_pipe_0 $end
+ $var wire 1 = dram_2_MPORT_en_pipe_0 $end
+ $var wire 1 > io_rEn $end
+ $var wire 6 ? io_wAddr $end
+ $var wire 8 H dram_0 $end
+ $var wire 8 I dram_1 $end
+ $var wire 8 J dram_2 $end
+ $var wire 6 K dram_0_MPORT_addr_pipe_0 $end
+ $var wire 8 L dram_3 $end
+ $var wire 1 R dram_1_MPORT_en_pipe_0 $end
+ $var wire 1 U io_wEn $end
+ $var wire 6 W io_rAddr $end
+ $var wire 1 [ clock $end
+ $var wire 8 \ io_rData_0 $end
+ $var wire 8 ] io_rData_1 $end
+ $var wire 8 _ io_rData_2 $end
+ $var wire 8 a io_rData_3 $end
+ $var wire 6 j dram_1_MPORT_addr_pipe_0 $end
+ $var wire 8 l io_wData_3 $end
+ $var wire 8 m io_wData_2 $end
+ $var wire 8 n io_wData_1 $end
+ $var wire 8 p io_wData_0 $end
+  $scope module dram_0 $end
+   $var wire 8 Q MPORT_1 $end
+    $scope module MPORT $end
+     $var wire 8 ! data $end
+     $var wire 6 A addr $end
+     $var wire 1 V clk $end
+     $var wire 1 c en $end
+    $upscope $end
+    $scope module MPORT_1 $end
+     $var wire 1 , pipeline_valid_0 $end
+     $var wire 1 . clk $end
+     $var wire 8 2 pipeline_data_0 $end
+     $var wire 8 < data $end
+     $var wire 1 M en $end
+     $var wire 1 T mask $end
+     $var wire 6 b pipeline_addr_0 $end
+     $var wire 1 h valid $end
+     $var wire 6 o addr $end
+    $upscope $end
+  $upscope $end
+  $scope module dram_3 $end
+   $var wire 8 5 MPORT_1 $end
+    $scope module MPORT $end
+     $var wire 8 " data $end
+     $var wire 1 N en $end
+     $var wire 6 ` addr $end
+     $var wire 1 g clk $end
+    $upscope $end
+    $scope module MPORT_1 $end
+     $var wire 1 # en $end
+     $var wire 6 ( pipeline_addr_0 $end
+     $var wire 1 * valid $end
+     $var wire 1 + clk $end
+     $var wire 1 ; mask $end
+     $var wire 6 @ addr $end
+     $var wire 1 F pipeline_valid_0 $end
+     $var wire 8 P pipeline_data_0 $end
+     $var wire 8 X data $end
+    $upscope $end
+  $upscope $end
+  $scope module dram_1 $end
+   $var wire 8 4 MPORT_1 $end
+    $scope module MPORT $end
+     $var wire 6 $ addr $end
+     $var wire 8 9 data $end
+     $var wire 1 S clk $end
+     $var wire 1 Z en $end
+    $upscope $end
+    $scope module MPORT_1 $end
+     $var wire 8 & data $end
+     $var wire 1 3 clk $end
+     $var wire 1 6 mask $end
+     $var wire 8 B pipeline_data_0 $end
+     $var wire 1 D en $end
+     $var wire 6 G addr $end
+     $var wire 1 Y pipeline_valid_0 $end
+     $var wire 6 i pipeline_addr_0 $end
+     $var wire 1 r valid $end
+    $upscope $end
+  $upscope $end
+  $scope module dram_2 $end
+   $var wire 8 q MPORT_1 $end
+    $scope module MPORT_1 $end
+     $var wire 1 % mask $end
+     $var wire 1 1 clk $end
+     $var wire 8 7 data $end
+     $var wire 8 8 pipeline_data_0 $end
+     $var wire 1 : en $end
+     $var wire 1 C pipeline_valid_0 $end
+     $var wire 1 O valid $end
+     $var wire 6 f pipeline_addr_0 $end
+     $var wire 6 k addr $end
+    $upscope $end
+    $scope module MPORT $end
+     $var wire 8 E data $end
+     $var wire 1 ^ clk $end
+     $var wire 6 d addr $end
+     $var wire 1 e en $end
+    $upscope $end
+  $upscope $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+00
+01
+b00000000 m
+03
+b00000000 l
+b000000 o
+0:
+b00000000 _
+0=
+0>
+b00000000 a
+b000000 f
+b000000 i
+0C
+1%
+0D
+b000000 k
+b000000 j
+0F
+b000000 `
+0M
+b00000000 n
+b000000 b
+0N
+b00000000 q
+0O
+b00000000 p
+b000000 d
+b000000 W
+b00000000 J
+0R
+0S
+b00000000 L
+16
+0U
+0V
+b00000000 I
+b00000000 H
+0Y
+b00000000 B
+1;
+0Z
+b00000000 E
+0[
+0^
+b000000 G
+b00000000 ]
+0c
+b00000000 \
+b000000 K
+0e
+0g
+b00000000 X
+0h
+b000000 ?
+b000000 A
+b000000 @
+b00000000 Q
+b00000000 P
+0r
+1T
+b00000000 &
+b00000000 "
+b00000000 !
+b000000 '
+b00000000 <
+b000000 (
+b00000000 7
+b00000000 9
+b000000 -
+b00000000 8
+b00000000 2
+b00000000 5
+b00000000 4
+b000000 $
+0#
+0)
+0*
+0+
+0,
+0.
+0/
+$end
+#0
+1/
+#1
+11
+13
+1S
+1V
+1g
+1+
+1[
+1.
+1^
+#6
+b000100 @
+1D
+b000100 G
+1M
+1O
+0S
+1U
+0V
+b00000011 X
+0[
+0^
+1#
+b00000001 &
+0g
+1h
+1*
+0+
+b000100 k
+b00000011 l
+b00000010 m
+0.
+b00000001 n
+0/
+b000100 o
+01
+1r
+03
+b00000010 7
+1:
+b000100 ?
+#11
+b00000001 B
+b000100 b
+1C
+1F
+b000100 f
+1g
+b000100 (
+b000100 i
+1+
+1,
+1.
+b00000011 P
+11
+13
+1S
+1V
+b00000010 8
+1Y
+1[
+1^
+#16
+0#
+0D
+0g
+0h
+0*
+0+
+0M
+0.
+0O
+01
+0r
+03
+0S
+0U
+0V
+b000100 W
+0:
+0[
+1>
+0^
+#21
+b000100 A
+0C
+b00000010 E
+0F
+b000100 K
+1N
+1R
+1S
+1V
+0Y
+1Z
+1[
+b00000001 ]
+1^
+b00000010 _
+b000100 `
+b00000011 a
+b00000011 "
+1c
+b000100 $
+b000100 d
+1e
+b000100 '
+1g
+1)
+b000100 j
+1+
+0,
+b000100 -
+1.
+10
+11
+13
+b00000001 9
+1=
+#26
+0g
+0+
+b00000000 l
+b00000000 m
+0.
+b00000000 n
+01
+03
+0S
+0V
+b000000 W
+0[
+0>
+0^
+b000000 ?

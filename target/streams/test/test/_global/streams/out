@@ -1,0 +1,38 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(hw5.CacheTester, org.scalatest.tools.Framework$$anon$1@bbcb2f4, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(hw5.CacheModelTester, org.scalatest.tools.Framework$$anon$1@bbcb2f4, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCacheModelTester:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCacheModel[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Split address into proper fields[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Split address into proper fields for Set-Associative Cache (4-way)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDMCacheModel[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should transfer block from main memory for a write and then a read[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should load in all words of a block[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to set all words to 1 and read result in cache[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should handle thrashing 0 -> 32 -> 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSACacheModel[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should transfer block from main memory for a write and then a read (SA)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should load in all words of a block (SA)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to set all words to 1 and read result in cache (SA)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should handle thrashing 0 -> 16 -> 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should handle thrashing 0 -> 16 -> 32 -> 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should replace first non-valid, and then go round-robin[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCacheTester:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMockDRAM[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to a block & read it back[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDMCache[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to read (miss, then hit) a block[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to write miss then read hit a block[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should load in a block[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should be able to write to all words and then read all in cache *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  io_hit=true (1, 0x1) did not equal expected=false (0, 0x0) (lines in CacheTester.scala: 72, 124, 123, 122) (CacheTester.scala:72)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should handle thrashing 0 -> 32 -> 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 12 seconds, 301 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 18[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 17, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	hw5.CacheModelTester[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	hw5.CacheTester[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m

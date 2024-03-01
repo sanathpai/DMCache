@@ -1,0 +1,453 @@
+2024.02.17 19:34:45 INFO  Started: Metals version 1.2.2 in folders 'C:\Users\Dell\OneDrive\Desktop\hw5-main' for client Visual Studio Code 1.86.1.
+19:34:46.283 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- Flyway Community Edition 9.22.3 by Redgate
+19:34:46.283 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- See release notes here: https://rd.gt/416ObMi
+19:34:46.283 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- 
+19:34:46.283 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+19:34:46.283 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@73d16e93 ...
+19:34:46.283 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+19:34:46.283 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+19:34:46.283 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@73d16e93 ...
+19:34:46.299 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/C:/Users/Dell/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+19:34:46.299 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+19:34:46.299 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+19:34:46.299 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+19:34:46.299 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+19:34:46.299 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+19:34:46.299 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+19:34:46.299 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+19:34:46.299 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+19:34:46.299 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+19:34:46.299 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+19:34:46.299 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+19:34:46.399 [pool-1-thread-1] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:C:\Users\Dell\OneDrive\Desktop\hw5-main\.metals\metals (H2 2.2)
+19:34:46.399 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+19:34:46.399 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+19:34:46.401 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+19:34:46.401 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+19:34:46.405 [pool-1-thread-1] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+19:34:46.407 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+19:34:46.407 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+19:34:46.415 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+19:34:46.419 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+19:34:46.430 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+19:34:46.431 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+19:34:46.431 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+19:34:46.431 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+19:34:46.431 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+19:34:46.432 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+19:34:46.433 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+19:34:46.433 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+19:34:46.433 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+19:34:46.433 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+19:34:46.436 [pool-1-thread-1] INFO org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+19:34:46.440 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.023s)
+19:34:46.442 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+19:34:46.446 [pool-1-thread-1] INFO org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+19:34:46.448 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing  ...
+19:34:46.456 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 1: CREATE TABLE IF NOT EXISTS "PUBLIC"."flyway_schema_history" (
+    "installed_rank" INT NOT NULL,
+    "version" VARCHAR(50),
+    "description" VARCHAR(200) NOT NULL,
+    "type" VARCHAR(20) NOT NULL,
+    "script" VARCHAR(1000) NOT NULL,
+    "checksum" INT,
+    "installed_by" VARCHAR(100) NOT NULL,
+    "installed_on" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "execution_time" INT NOT NULL,
+    "success" BOOLEAN NOT NULL,
+    CONSTRAINT "flyway_schema_history_pk" PRIMARY KEY ("installed_rank")
+) AS SELECT -1, NULL, '<< Flyway Schema History table created >>', 'TABLE', '', NULL, 'SA', CURRENT_TIMESTAMP, 0, TRUE
+19:34:46.457 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 14: CREATE INDEX "PUBLIC"."flyway_schema_history_s_idx" ON "PUBLIC"."flyway_schema_history" ("success")
+19:34:46.458 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE TABLE IF NOT EXISTS "PUBLIC"."flyway_schema_history" (
+    "installed_rank" INT NOT NULL,
+    "version" VARCHAR(50),
+    "description" VARCHAR(200) NOT NULL,
+    "type" VARCHAR(20) NOT NULL,
+    "script" VARCHAR(1000) NOT NULL,
+    "checksum" INT,
+    "installed_by" VARCHAR(100) NOT NULL,
+    "installed_on" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "execution_time" INT NOT NULL,
+    "success" BOOLEAN NOT NULL,
+    CONSTRAINT "flyway_schema_history_pk" PRIMARY KEY ("installed_rank")
+) AS SELECT -1, NULL, '<< Flyway Schema History table created >>', 'TABLE', '', NULL, 'SA', CURRENT_TIMESTAMP, 0, TRUE
+19:34:46.460 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+19:34:46.460 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE INDEX "PUBLIC"."flyway_schema_history_s_idx" ON "PUBLIC"."flyway_schema_history" ("success")
+19:34:46.460 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+19:34:46.460 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Created Schema History table "PUBLIC"."flyway_schema_history"
+19:34:46.477 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": << Empty Schema >>
+19:34:46.478 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V1__Create_tables.sql ...
+19:34:46.479 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 4: -- The relationship between library dependency sources under .metals/readonly/**
+-- and build targets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table dependency_source(
+  text_document_uri varchar primary key,
+  build_target_uri varchar not null
+)
+19:34:46.481 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 12: -- The relationship between library dependency sources under .metals/readonly/**
+-- and worksheets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table worksheet_dependency_source(
+  text_document_uri varchar primary key,
+  worksheet_uri varchar not null
+)
+19:34:46.482 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 19: -- The relationship between what library dependency sources under .metals/readonly/**
+-- map to which build targets.
+create table sbt_digest(
+  md5 varchar,
+  status tinyint not null,
+  when_recorded timestamp
+)
+19:34:46.483 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 27: -- Which window/showMessage and window/showMessageRequest dialogues have been dismissed
+-- by the user via "Don't show again" or closed by clicking on "x".
+create table dismissed_notification(
+  id int,
+  when_dismissed timestamp,
+  when_expires timestamp
+)
+19:34:46.483 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 34: -- The choice of build tool when multiple build tool files are found in a workspace
+create table chosen_build_tool(
+  build_tool varchar primary key
+)
+19:34:46.484 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "1 - Create tables" ...
+19:34:46.485 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "1 - Create tables"
+19:34:46.486 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The relationship between library dependency sources under .metals/readonly/**
+-- and build targets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table dependency_source(
+  text_document_uri varchar primary key,
+  build_target_uri varchar not null
+)
+19:34:46.488 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+19:34:46.488 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The relationship between library dependency sources under .metals/readonly/**
+-- and worksheets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table worksheet_dependency_source(
+  text_document_uri varchar primary key,
+  worksheet_uri varchar not null
+)
+19:34:46.489 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+19:34:46.490 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The relationship between what library dependency sources under .metals/readonly/**
+-- map to which build targets.
+create table sbt_digest(
+  md5 varchar,
+  status tinyint not null,
+  when_recorded timestamp
+)
+19:34:46.490 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+19:34:46.490 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Which window/showMessage and window/showMessageRequest dialogues have been dismissed
+-- by the user via "Don't show again" or closed by clicking on "x".
+create table dismissed_notification(
+  id int,
+  when_dismissed timestamp,
+  when_expires timestamp
+)
+19:34:46.491 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+19:34:46.491 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The choice of build tool when multiple build tool files are found in a workspace
+create table chosen_build_tool(
+  build_tool varchar primary key
+)
+19:34:46.492 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+19:34:46.492 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "1 - Create tables"
+19:34:46.495 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+19:34:46.499 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V2__Server_discovery.sql ...
+19:34:46.501 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 4: -- For each unique combination of installed build servers we select one server.
+-- The md5 checksum is computed from the names of the installed build servers, and
+-- the selected server is the server which the user chose for this workspace.
+create table chosen_build_server(
+  md5 varchar primary key,
+  selected_server varchar,
+  when_recorded timestamp
+)
+19:34:46.502 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "2 - Server discovery" ...
+19:34:46.502 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "2 - Server discovery"
+19:34:46.502 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- For each unique combination of installed build servers we select one server.
+-- The md5 checksum is computed from the names of the installed build servers, and
+-- the selected server is the server which the user chose for this workspace.
+create table chosen_build_server(
+  md5 varchar primary key,
+  selected_server varchar,
+  when_recorded timestamp
+)
+19:34:46.503 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+19:34:46.504 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "2 - Server discovery"
+19:34:46.505 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+19:34:46.505 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V3__Jar_symbols.sql ...
+19:34:46.505 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 2: -- Indexed jars, the MD5 digest of path, modified time and size as key
+create table indexed_jar(
+  id int auto_increment unique,
+  md5 varchar primary key
+)
+19:34:46.505 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 7: -- Top Level Symbols per jar, allow for multiple jars with same symbols and paths
+create table toplevel_symbol(
+  symbol varchar not null,
+  path varchar not null,
+  jar int,
+  foreign key (jar) references indexed_jar (id) on delete cascade,
+  primary key (jar, path, symbol)
+)
+19:34:46.505 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 15: -- Create index to speedup lookup of jar symbols
+create index toplevel_symbol_jar on toplevel_symbol(jar)
+19:34:46.505 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "3 - Jar symbols" ...
+19:34:46.505 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "3 - Jar symbols"
+19:34:46.505 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Indexed jars, the MD5 digest of path, modified time and size as key
+create table indexed_jar(
+  id int auto_increment unique,
+  md5 varchar primary key
+)
+19:34:46.505 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+19:34:46.505 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Top Level Symbols per jar, allow for multiple jars with same symbols and paths
+create table toplevel_symbol(
+  symbol varchar not null,
+  path varchar not null,
+  jar int,
+  foreign key (jar) references indexed_jar (id) on delete cascade,
+  primary key (jar, path, symbol)
+)
+19:34:46.521 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+19:34:46.521 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Create index to speedup lookup of jar symbols
+create index toplevel_symbol_jar on toplevel_symbol(jar)
+19:34:46.521 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+19:34:46.521 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "3 - Jar symbols"
+19:34:46.521 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+19:34:46.521 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V4__Fingerprints.sql ...
+19:34:46.521 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 2: -- Fingerprints saved between invocations
+create table fingerprints(
+  path varchar not null,
+  text varchar not null,
+  md5 varchar not null,
+  id int auto_increment unique
+)
+19:34:46.521 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "4 - Fingerprints" ...
+19:34:46.521 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "4 - Fingerprints"
+19:34:46.521 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Fingerprints saved between invocations
+create table fingerprints(
+  path varchar not null,
+  text varchar not null,
+  md5 varchar not null,
+  id int auto_increment unique
+)
+19:34:46.521 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+19:34:46.521 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "4 - Fingerprints"
+19:34:46.521 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+19:34:46.536 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.022s)
+19:34:46.536 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 49 of 100M
+2024.02.17 19:34:47 WARN  Build server is not auto-connectable.
+2024.02.17 19:35:00 INFO  no build target found for C:\Users\Dell\OneDrive\Desktop\hw5-main\src\test\scala\hw5\CacheModel.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2024.02.17 19:45:53 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 14:35:15 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 14:41:11 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 14:45:12 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 14:47:28 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 14:56:52 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 15:00:26 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 15:09:22 WARN  Using indexes to guess the definition of blockSize
+2024.02.18 15:09:29 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 15:12:58 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 15:14:37 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 15:22:21 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+Feb 18, 2024 3:24:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 721
+2024.02.18 15:26:07 WARN  Could not find semantic tokens for: file:///C:/Users/Dell/OneDrive/Desktop/hw5-main/src/test/scala/hw5/CacheTester.scala
+2024.02.18 15:26:20 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 15:26:29 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 15:30:27 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 15:33:11 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 15:33:57 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 15:41:07 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 15:41:31 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 15:41:41 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 15:43:13 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 15:43:13 WARN  Using indexes to guess the definition of associativity
+2024.02.18 15:46:10 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 15:47:12 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 15:47:43 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+Feb 18, 2024 3:48:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Dell\OneDrive\Desktop\hw5-main\.metals\.reports\metals-full\2024-02-18\r_compiler-error_15-48-08-989.md
+2024.02.18 15:48:59 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+Feb 18, 2024 3:49:14 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.02.18 15:49:25 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 15:54:01 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 15:55:36 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 15:56:34 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 15:58:58 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 16:00:01 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 16:02:39 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 16:04:26 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 16:04:27 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+Feb 18, 2024 4:04:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1180
+2024.02.18 16:05:30 WARN  Using indexes to guess the definition of numSets
+2024.02.18 16:05:31 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 16:05:49 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 16:05:49 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 16:07:58 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 16:09:53 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+Feb 18, 2024 4:13:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1268
+2024.02.18 16:13:57 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 16:15:03 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+Feb 18, 2024 4:15:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1372
+Feb 18, 2024 4:16:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1379
+2024.02.18 16:18:57 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 16:19:41 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 16:22:35 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 16:24:11 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 16:27:14 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 17:15:45 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 17:16:38 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 17:49:05 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+Feb 18, 2024 6:57:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1633
+2024.02.18 18:57:30 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 18:59:44 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 19:04:47 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 19:07:39 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 19:10:00 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 19:10:31 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 19:14:30 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 19:16:17 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 19:17:54 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 19:19:08 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 19:21:48 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 19:26:34 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.18 19:27:06 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+Feb 19, 2024 1:06:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.UnsupportedOperationException: tail of empty list
+java.util.concurrent.CompletionException: java.lang.UnsupportedOperationException: tail of empty list
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.lang.UnsupportedOperationException: tail of empty list
+	at scala.collection.immutable.Nil$.tail(List.scala:664)
+	at scala.collection.immutable.Nil$.tail(List.scala:661)
+	at scala.meta.internal.metals.codeactions.CreateCompanionObjectCodeAction.$anonfun$endPosOfTree$1(CreateCompanionObjectCodeAction.scala:77)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.CreateCompanionObjectCodeAction.endPosOfTree(CreateCompanionObjectCodeAction.scala:75)
+	at scala.meta.internal.metals.codeactions.CreateCompanionObjectCodeAction.$anonfun$contribute$5(CreateCompanionObjectCodeAction.scala:61)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.CreateCompanionObjectCodeAction.$anonfun$contribute$4(CreateCompanionObjectCodeAction.scala:58)
+	at scala.Option$WithFilter.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.CreateCompanionObjectCodeAction.$anonfun$contribute$2(CreateCompanionObjectCodeAction.scala:56)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.CreateCompanionObjectCodeAction.$anonfun$contribute$1(CreateCompanionObjectCodeAction.scala:55)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2024.02.19 19:30:27 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.19 19:32:28 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.19 19:36:33 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.19 19:37:59 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.19 19:38:11 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.19 19:40:59 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.19 19:41:50 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.19 19:41:51 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.19 19:43:13 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.19 19:43:16 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.19 19:43:16 WARN  Using indexes to guess the definition of blockSize
+2024.02.19 19:43:36 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.19 19:44:02 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.19 19:44:04 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.19 19:44:04 WARN  Using indexes to guess the definition of bitsPerWord
+2024.02.19 19:44:25 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.19 19:44:25 WARN  Using indexes to guess the definition of memBlockAddrBits
+2024.02.19 19:44:46 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.19 19:44:47 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.19 19:45:02 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.19 19:45:18 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.19 19:45:28 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.19 19:46:33 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.19 19:47:19 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.19 19:47:54 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.19 19:58:34 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.19 19:58:49 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.19 19:59:20 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.19 19:59:23 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.19 20:00:00 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.19 20:00:03 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.19 20:00:30 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.19 20:00:31 WARN  Using indexes to guess the definition of numSets
+2024.02.19 20:00:48 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.19 20:00:49 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.19 20:00:49 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.19 20:00:49 WARN  Using indexes to guess the definition of blockSize
+2024.02.19 20:01:54 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.19 20:02:16 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.19 20:02:57 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.19 20:03:17 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+Feb 19, 2024 8:03:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2563
+2024.02.19 20:03:18 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.19 20:03:30 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+2024.02.19 20:03:33 WARN  Using indexes to guess the definition of blockSize
+2024.02.19 20:05:02 WARN  Using indexes to guess the definition of blockSize
+2024.02.19 20:05:02 WARN  no build target for: C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala
+Feb 19, 2024 8:05:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2701
+2024.02.20 13:35:50 INFO  Shutting down server
+2024.02.20 13:35:50 INFO  shutting down Metals
+2024.02.20 13:35:51 INFO  Exiting server
+2024.02.24 16:18:29 INFO  Started: Metals version 1.2.2 in folders 'C:\Users\Dell\OneDrive\Desktop\hw5-main' for client Visual Studio Code 1.86.2.
+16:18:31.889 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- Flyway Community Edition 9.22.3 by Redgate
+16:18:31.902 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- See release notes here: https://rd.gt/416ObMi
+16:18:31.902 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- 
+16:18:31.910 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+16:18:31.910 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@73d16e93 ...
+16:18:31.910 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+16:18:31.914 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+16:18:31.914 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@73d16e93 ...
+16:18:31.918 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/C:/Users/Dell/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+16:18:31.935 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+16:18:31.935 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+16:18:31.935 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+16:18:31.939 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+16:18:31.939 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+16:18:31.939 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+16:18:31.956 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+16:18:31.960 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+16:18:31.960 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+16:18:31.960 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+16:18:31.964 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+16:18:32.238 [pool-1-thread-1] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:C:\Users\Dell\OneDrive\Desktop\hw5-main\.metals\metals (H2 2.2)
+16:18:32.238 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+16:18:32.238 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+16:18:32.241 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+16:18:32.241 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+16:18:32.254 [pool-1-thread-1] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+16:18:32.258 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+16:18:32.258 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+16:18:32.294 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+16:18:32.310 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+16:18:32.339 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+16:18:32.343 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+16:18:32.343 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+16:18:32.343 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+16:18:32.343 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+16:18:32.343 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+16:18:32.343 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+16:18:32.343 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+16:18:32.343 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+16:18:32.343 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+16:18:32.395 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.099s)
+16:18:32.404 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+16:18:32.424 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": 4
+16:18:32.440 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Schema "PUBLIC" is up to date. No migration necessary.
+16:18:32.469 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 34 of 100M
+2024.02.24 16:18:33 WARN  Build server is not auto-connectable.
+2024.02.24 16:19:00 INFO  no build target found for C:\Users\Dell\OneDrive\Desktop\hw5-main\src\main\scala\hw5\Cache.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2024.02.24 16:19:08 INFO  time: code lens generation in 32s
+2024.02.24 16:19:24 INFO  Shutting down server
+2024.02.24 16:19:24 INFO  shutting down Metals
+2024.02.24 16:19:24 INFO  Exiting server

@@ -1,0 +1,17 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Dell\OneDrive\Desktop\hw5-main\src\test\scala\hw5\CacheTester.scala:42:11: value hit is not a member of chisel3.Bundle{val in: chisel3.util.DecoupledIO[chisel3.Bundle{val addr: chisel3.UInt; val write: chisel3.Bool; val wData: chisel3.UInt}]; val isHit: chisel3.Bool; val out: chisel3.util.Valid[chisel3.UInt]}[0m
+[0m[[0m[31merror[0m] [0m[0mdid you mean out or wait?[0m
+[0m[[0m[31merror[0m] [0m[0m			dut.io.hit.expect(true.B)[0m
+[0m[[0m[31merror[0m] [0m[0m			       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Dell\OneDrive\Desktop\hw5-main\src\test\scala\hw5\CacheTester.scala:44:11: value hit is not a member of chisel3.Bundle{val in: chisel3.util.DecoupledIO[chisel3.Bundle{val addr: chisel3.UInt; val write: chisel3.Bool; val wData: chisel3.UInt}]; val isHit: chisel3.Bool; val out: chisel3.util.Valid[chisel3.UInt]}[0m
+[0m[[0m[31merror[0m] [0m[0mdid you mean out or wait?[0m
+[0m[[0m[31merror[0m] [0m[0m			dut.io.hit.expect(false.B)[0m
+[0m[[0m[31merror[0m] [0m[0m			       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Dell\OneDrive\Desktop\hw5-main\src\test\scala\hw5\CacheTester.scala:70:11: value hit is not a member of chisel3.Bundle{val in: chisel3.util.DecoupledIO[chisel3.Bundle{val addr: chisel3.UInt; val write: chisel3.Bool; val wData: chisel3.UInt}]; val isHit: chisel3.Bool; val out: chisel3.util.Valid[chisel3.UInt]}[0m
+[0m[[0m[31merror[0m] [0m[0mdid you mean out or wait?[0m
+[0m[[0m[31merror[0m] [0m[0m			dut.io.hit.expect(true.B)[0m
+[0m[[0m[31merror[0m] [0m[0m			       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Dell\OneDrive\Desktop\hw5-main\src\test\scala\hw5\CacheTester.scala:72:11: value hit is not a member of chisel3.Bundle{val in: chisel3.util.DecoupledIO[chisel3.Bundle{val addr: chisel3.UInt; val write: chisel3.Bool; val wData: chisel3.UInt}]; val isHit: chisel3.Bool; val out: chisel3.util.Valid[chisel3.UInt]}[0m
+[0m[[0m[31merror[0m] [0m[0mdid you mean out or wait?[0m
+[0m[[0m[31merror[0m] [0m[0m			dut.io.hit.expect(false.B)[0m
+[0m[[0m[31merror[0m] [0m[0m			       ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m

@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 6 products, 3 sources, 9 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/test/scala/hw5/CacheModel.scala, ${BASE}/src/test/scala/hw5/CacheModelTester.scala, ${BASE}/src/test/scala/hw5/CacheTester.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set(NamesChange(hw5.DMCache,ModifiedNames(changes = UsedName(extwen,[Default]), UsedName(extwEn,[Default]), UsedName(extraddr,[Default]), UsedName(bOffset,[Default]), UsedName(extrEn,[Default]), UsedName(blockExtra,[Default]), UsedName(extrAddr,[Default]), UsedName(addressIndex,[Default]), UsedName(bitsValid,[Default]), UsedName(addressPointer,[Default]), UsedName(extren,[Default]), UsedName(validBits,[Default])))))[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe hw5.DMCache has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(extwen,[Default]), UsedName(extwEn,[Default]), UsedName(extraddr,[Default]), UsedName(bOffset,[Default]), UsedName(extrEn,[Default]), UsedName(blockExtra,[Default]), UsedName(extrAddr,[Default]), UsedName(addressIndex,[Default]), UsedName(bitsValid,[Default]), UsedName(addressPointer,[Default]), UsedName(extren,[Default]), UsedName(validBits,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) hw5.DMCache: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mNow invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) hw5.DMCache.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of hw5.CacheTester. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m
